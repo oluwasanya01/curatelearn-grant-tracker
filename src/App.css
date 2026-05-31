@@ -2164,7 +2164,7 @@ h6 {
   }
 
   .back-btn {
-    display: none;
+    display: block;
   }
 
   .scroll-indicator {
