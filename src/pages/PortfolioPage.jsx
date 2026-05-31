@@ -25,15 +25,7 @@ function PortfolioPage() {
   ]
 
   const gallery = [
-    { id: 1, image: '/gallery1.jpeg', title: 'Gallery Image 1' },
-    { id: 2, image: '/gallery2.jpeg', title: 'Gallery Image 2' },
-    { id: 3, image: '/gallery3.jpeg', title: 'Gallery Image 3' },
-    { id: 4, image: '/gallery4.jpeg', title: 'Gallery Image 4' },
-    { id: 5, image: '/gallery5.jpeg', title: 'Gallery Image 5' },
-    { id: 6, image: '/gallery6.jpeg', title: 'Gallery Image 6' },
-    { id: 7, image: '/gallery7.jpeg', title: 'Gallery Image 7' },
-    { id: 8, image: '/gallery8.jpeg', title: 'Gallery Image 8' },
-    { id: 9, image: '/gallery9.jpeg', title: 'Gallery Image 9' },
+    { id: 1, image: '/new.jpeg', title: 'BETHA Event' },
   ]
 
   const nextGallerySlide = () => {
