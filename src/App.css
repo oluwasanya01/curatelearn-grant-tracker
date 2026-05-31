@@ -2027,7 +2027,7 @@ h6 {
   .hero-content {
     padding: 1.5rem;
     border-radius: 8px;
-    margin-top: 3rem;
+    margin-top: 6rem;
   }
 
   .hero h1 {
@@ -2251,7 +2251,7 @@ h6 {
   }
 
   .hero {
-    padding: 5rem 1rem 2rem 1rem;
+    padding: 5rem 1rem 0.5rem 1rem;
     margin-top: 0;
   }
 
