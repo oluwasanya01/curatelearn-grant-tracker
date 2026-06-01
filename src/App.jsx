@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import './App.css'
 import Header from './components/Header'
 import ChatModal from './components/ChatModal'
@@ -56,6 +57,7 @@ function App() {
   return (
     <Router>
       <AppContent showChat={showChat} setShowChat={setShowChat} showFollowMenu={showFollowMenu} setShowFollowMenu={setShowFollowMenu} />
+      <Analytics />
     </Router>
   )
 }
